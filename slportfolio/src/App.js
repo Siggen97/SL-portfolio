@@ -35,22 +35,7 @@ function App() {
 					element={<Contact />}
 				/>
 			</Routes>
-			<section
-				id="contact"
-				className="py-16 bg-gray-900 text-white">
-				<div className="container mx-auto px-4 text-center">
-					<h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
-					<p className="text-lg mb-6">
-						Whether you have a project in mind or just want to say hello, feel
-						free to reach out to me!
-					</p>
-					<a
-						href="/contact"
-						className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-						Contact Me
-					</a>
-				</div>
-			</section>
+			
 		</div>
 	);
 }
