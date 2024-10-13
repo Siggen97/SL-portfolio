@@ -23,14 +23,14 @@ function Navbar() {
 					</div>
 					<div className="hidden md:flex space-x-4">
 						<Link
-							to="/about"
-							className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-							About
-						</Link>
-						<Link
 							to="/projects"
 							className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
 							Projects
+						</Link>
+						<Link
+							to="/about"
+							className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+							About
 						</Link>
 						<Link
 							to="/contact"
