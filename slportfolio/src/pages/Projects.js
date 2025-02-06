@@ -7,7 +7,7 @@ const projects = [
 		description:
 			'This project showcases my skills in web development, creating an auction website. Focus on creating responsive, dynamic user interfaces. The goal of the project was to build a fully functional website with API integration. (HTML, Javascript, css, SASS, bootstrap).',
 		imageUrl: 'https://i.imghippo.com/files/sJKcr1728817751.png',
-		githubUrl: 'https://github.com/Siggen97/Semester-Project-2',
+		githubUrl: 'https://github.com/Siggen97/Semester-Project-2.git',
 		liveUrl: 'https://gentle-narwhal-a1c2cd.netlify.app',
 	},
 	{
@@ -15,8 +15,8 @@ const projects = [
 		underTitle: 'JavaScript Frameworks CA',
 		description:
 			'This project demonstrates my proficiency in modern JavaScript frameworks, specifically React.js. I built an interactive web application that includes API integration and features like routing, components and etc. from react.js. Also using principles for responsive design. (Javascript, react, css, bootstrap).',
-		imageUrl: 'https://www.imghippo.com/files/c937I1728815866.png',
-		githubUrl: 'https://github.com/Siggen97/React-Ecommerce',
+		imageUrl: 'https://i.imghippo.com/files/qday7907fQ.png',
+		githubUrl: 'https://github.com/Siggen97/React-Ecommerce.git',
 		liveUrl: 'https://ludvigs-shop.netlify.app',
 	},
 	{
@@ -25,7 +25,7 @@ const projects = [
 		description:
 			'In this project, I developed a comprehensive application for a newly launched accommodation booking site called Holidaze. It involved advanced front-end development techniques, including API integration, authentication, and responsive design principles. (Javascript, react, css, bootstrap). ',
 		imageUrl: 'https://i.imghippo.com/files/KmmbV1728815812.png',
-		githubUrl: 'https://github.com/Siggen97/holidaze-booking',
+		githubUrl: 'https://github.com/Siggen97/holidaze-booking.git',
 		liveUrl: 'https://holidaze-sl.netlify.app',
 	},
 ];
