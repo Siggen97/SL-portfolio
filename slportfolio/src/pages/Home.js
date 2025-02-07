@@ -39,7 +39,8 @@ function Home() {
 				<div className="container mx-auto px-4 text-center">
 					<h2 className="text-3xl font-bold mb-6">About Me</h2>
 					<p className="text-lg mb-6">
-						I'm a frontend developer, delivering efficient, high-quality and user-friendly web solutions.
+						I'm a frontend developer, delivering efficient, high-quality and
+						user-friendly web solutions.
 					</p>
 					<a
 						href="/about"
@@ -79,7 +80,7 @@ function Home() {
 						{/* Project 2 */}
 						<div className="bg-white rounded-lg shadow-lg p-6">
 							<img
-								src="https://www.imghippo.com/files/c937I1728815866.png"
+								src="https://i.imghippo.com/files/qday7907fQ.png"
 								alt="Project 2"
 								className="rounded-lg mb-4"
 							/>
@@ -97,17 +98,17 @@ function Home() {
 						{/* Project 3 */}
 						<div className="bg-white rounded-lg shadow-lg p-6">
 							<img
-								src="https://i.imghippo.com/files/IvW231728836819.png"
+								src="https://i.imghippo.com/files/sJKcr1728817751.png"
 								alt="Project 3"
 								className="rounded-lg mb-4"
 							/>
-							<h3 className="text-xl font-bold mb-2">Personal Blog</h3>
+							<h3 className="text-xl font-bold mb-2">Auction House</h3>
 							<p className="text-gray-700 mb-4">
-								#javascript #react #css #bootstrap #node #mongodb #express
-								#heroku
+								#javascript #react #css #bootstrap #netlify
+								
 							</p>
 							<a
-								href="https://thenumbertwelfth.com/"
+								href="https://gentle-narwhal-a1c2cd.netlify.app"
 								className="text-blue-600 hover:text-blue-700 font-bold">
 								View Project →
 							</a>
