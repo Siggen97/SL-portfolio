@@ -13,7 +13,9 @@ function Navbar() {
 	return (
 		<nav className="bg-gray-800 text-white">
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div className="flex justify-between h-16">
+				{/* Flex container with vertical centering */}
+				<div className="flex items-center justify-between h-16">
+					{/* Logo / Brand */}
 					<div className="flex items-center">
 						<Link
 							to="/"
@@ -21,7 +23,8 @@ function Navbar() {
 							SLydvo
 						</Link>
 					</div>
-					<div className="hidden md:flex space-x-4">
+					{/* Navigation links for desktop */}
+					<div className="hidden md:flex items-center space-x-4">
 						<Link
 							to="/projects"
 							className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
@@ -38,10 +41,11 @@ function Navbar() {
 							Contact
 						</Link>
 					</div>
+					{/* Mobile menu button */}
 					<div className="md:hidden flex items-center">
 						<button
 							onClick={toggleMenu}
-							className="inline-flex items-center p-2 rounded-md">
+							className="inline-flex items-center p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
 							<svg
 								className="h-6 w-6"
 								viewBox="0 0 24 24"
@@ -67,21 +71,22 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
+			{/* Mobile menu */}
 			{isOpen && (
 				<div className="md:hidden">
 					<Link
-						to="/about"
-						className="block px-3 py-2 rounded-md">
-						About
-					</Link>
-					<Link
 						to="/projects"
-						className="block px-3 py-2 rounded-md">
+						className="block px-3 py-2 rounded-md hover:bg-gray-700">
 						Projects
 					</Link>
 					<Link
+						to="/about"
+						className="block px-3 py-2 rounded-md hover:bg-gray-700">
+						About
+					</Link>
+					<Link
 						to="/contact"
-						className="block px-3 py-2 rounded-md">
+						className="block px-3 py-2 rounded-md hover:bg-gray-700">
 						Contact
 					</Link>
 				</div>

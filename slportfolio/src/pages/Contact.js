@@ -4,8 +4,9 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<div className="bg-gray-900 text-white py-20">
-			<div className="max-w-lg mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+		// Use flexbox to center the form vertically and horizontally, with a full viewport height
+		<div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
+			<div className="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg">
 				<h1 className="text-3xl font-bold text-center mb-8">Contact Me</h1>
 				<form
 					action="SEND TO BACKEND"
